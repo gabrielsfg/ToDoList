@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/black"
+
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Uptade Task"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:id="@+id/create_task"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter task"
+        android:textColor="@color/white"
+        android:padding="15dp"
+        android:layout_marginTop="10dp"
+        android:textColorHint="#BFBBBB"
+        android:background="@drawable/task"
+        android:layout_margin="10dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <Button
+            android:id="@+id/updateBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="UPDATE"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/green"
+            android:textSize="25dp"
+            android:fontFamily="serif"/>
+
+        <Button
+            android:id="@+id/deleteBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:text="DELETE"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/red"
+            android:textSize="25dp"
+            android:fontFamily="serif"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
